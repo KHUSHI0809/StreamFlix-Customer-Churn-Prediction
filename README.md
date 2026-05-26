@@ -4,8 +4,6 @@
 
 A supervised machine learning pipeline that predicts which StreamFlix customers are likely to churn **within the next 30 days** — before they actually cancel. The goal is to give the business enough lead time to intervene with targeted retention strategies.
 
-> *"Churn is rarely loud. Customers don't announce their intention to leave — they simply stop watching, and eventually stop paying."*
-
 The model achieves **94% recall** on churners at an optimized threshold of 0.3, meaning it catches 356 out of 378 at-risk customers, giving retention teams a powerful early warning system.
 
 ---
@@ -188,32 +186,7 @@ This allows StreamFlix to **periodically score new customer data** and flag at-r
 | `matplotlib`, `seaborn` | EDA and performance visualizations |
 | `joblib` | Model serialization |
 
----
 
-## 📁 Repository Structure
-
-```
-streamflix-churn-prediction/
-│
-├── notebooks/
-│   └── Data_602_Midterm_Code_final.ipynb   # Full pipeline notebook
-│
-├── visualizations/
-│   ├── viz1_churn_distribution.png
-│   ├── viz2_churn_by_plan.png
-│   ├── viz3_churn_by_billing.png
-│   ├── viz5_days_since_watch.png
-│   ├── Feature_Importance.png
-│   ├── Model_performance.png
-│   └── Threshold.jpeg
-│
-├── models/
-│   └── streamflix_churn_model.pkl          # Saved production model
-│
-└── README.md
-```
-
----
 
 ## 🚀 Getting Started
 
