@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-A supervised machine learning pipeline that predicts which StreamFlix customers are likely to churn **within the next 30 days** — before they actually cancel. The goal is to give the business enough lead time to intervene with targeted retention strategies.
+A supervised machine learning pipeline that predicts which StreamFlix customers are likely to churn **within the next 30 days** , before they actually cancel. The goal is to give the business enough lead time to intervene with targeted retention strategies.
 
 The model achieves **94% recall** on churners at an optimized threshold of 0.3, meaning it catches 356 out of 378 at-risk customers, giving retention teams a powerful early warning system.
 
